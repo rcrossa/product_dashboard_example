@@ -182,20 +182,20 @@ El proyecto sigue los principios de Clean Architecture con tres capas:
 ## 🎨 Funcionalidades
 
 ### Autenticación
-- ✅ Login con credenciales
-- ✅ Protección de rutas con middleware
-- ✅ Sesión persistente con NextAuth v5
-- ✅ Redirección automática
+-  Login con credenciales
+-  Protección de rutas con middleware
+-  Sesión persistente con NextAuth v5
+-  Redirección automática
 
 ### Dashboard de Productos
-- ✅ Lista de productos
-- ✅ Crear producto (modal)
-- ✅ Editar producto (modal)
-- ✅ Eliminar producto (confirmación)
-- ✅ Selección múltiple
-- ✅ Eliminación masiva
-- ✅ Actualización automática (TanStack Query)
-- ✅ Validación con Zod
+-  Lista de productos
+-  Crear producto (modal)
+-  Editar producto (modal)
+-  Eliminar producto (confirmación)
+-  Selección múltiple
+-  Eliminación masiva
+-  Actualización automática (TanStack Query)
+-  Validación con Zod
 
 ## 🧰 Scripts Disponibles
 
@@ -235,11 +235,11 @@ npm run setup
 
 ## 🔒 Seguridad
 
-- ✅ Contraseñas hasheadas (bcryptjs)
-- ✅ Validación de inputs (Zod)
-- ✅ Protección CSRF (NextAuth)
-- ✅ Variables de entorno
-- ✅ Middleware de autenticación
+-  Contraseñas hasheadas (bcryptjs)
+-  Validación de inputs (Zod)
+-  Protección CSRF (NextAuth)
+-  Variables de entorno
+-  Middleware de autenticación
 
 ## 🚀 Despliegue
 
