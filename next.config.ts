@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  serverExternalPackages: ['bcryptjs', '@prisma/client', '@prisma/adapter-pg', 'pg'],
+  outputFileTracingRoot: __dirname,
 };
 
 export default nextConfig;
